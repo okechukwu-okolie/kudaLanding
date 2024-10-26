@@ -22,7 +22,7 @@ width: 310px;
 height: 100px;
 background-color:white;
 border: transparent;
-box-shadow: 2px 2px 10px #40196D;
+box-shadow: 2px 2px 4px #40196D;
 
 div{
     padding: 10px;
@@ -34,7 +34,7 @@ span{
     background-color: #DFE3FF;
 }
 h3{
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 15px;
 }
     

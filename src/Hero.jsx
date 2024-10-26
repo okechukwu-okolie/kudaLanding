@@ -65,6 +65,12 @@ const Container = styled.div`
     align-items: center;
     padding: 50px 0 0 0;
     font-family: Mulish;
+
+    @media (max-width:768px){
+        display: block;
+        text-align: center;
+
+    }
     
 `
 const MainHeading = styled.div`
@@ -89,6 +95,12 @@ const MainHeading = styled.div`
 `
 const AppStores = styled.div`
     display:flex;
+
+    @media (max-width:768px){
+        justify-content: center;
+        text-align: center;
+        
+    }
     
 `
 
@@ -97,25 +109,25 @@ const Flex1 = styled.div`
     display: flex;
     background-color: black;
     width: fit-content;
-    padding: 3px 13px;
+    padding: 3px 5px;
     border-radius: 5px;
     margin-right: 20px;
 
     img{
         padding-top: 5px;
-        width: 30px;
+        width: 25px;
         text-align: center;
     }
     p{
         color: white;
-        font-size: 10px;
+        font-size: 9px;
         text-align: center;
         padding-top: 5px;
         margin: 0px;
     }
     h3{
         color: white;
-        font-size: 17px;
+        font-size: 12px;
         padding: 0px;
         margin-top: -5px;
     }
@@ -125,37 +137,52 @@ const Flex1 = styled.div`
 
 
 const Flex2 = styled.div`
-    display: flex;
+     display: flex;
     background-color: black;
     width: fit-content;
-    padding: 3px 13px;
+    padding: 3px 5px;
     border-radius: 5px;
+    margin-right: 20px;
 
     img{
         padding-top: 5px;
-        width: 30px;
+        width: 25px;
         text-align: center;
     }
     p{
         color: white;
-        font-size: 10px;
+        font-size: 9px;
         text-align: center;
         padding-top: 5px;
         margin: 0px;
     }
     h3{
         color: white;
-        font-size: 17px;
+        font-size: 12px;
         padding: 0px;
         margin-top: -5px;
-    } 
+    }
 `
 
 const Cbn = styled.div`
     margin-top: 30px;
 
+    img{
+        @media (max-width:768px){
+             max-width: 300px;
+            } 
+    }
+
 `
 
 const GroupB = styled.div`
+    
+    img{
+
+
+        @media (max-width:768px){
+             max-width:300px;
+            }
+    }
     
 `
