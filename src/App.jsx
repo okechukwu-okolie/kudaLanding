@@ -6,6 +6,9 @@ import Header from './Header'
 import Hero from './Hero'
 import Testimonials from './Testinonials'
 import Table from './Table'
+import More from './Components/More'
+import MoneyApp from './MoneyApp'
+import FooterLinkCards from './FooterLinkCards'
 
 
 function App() {
@@ -19,6 +22,9 @@ function App() {
       <TextImageTemplates/>
       <Testimonials/>
       <Table/>
+      <More/>
+      <MoneyApp/>
+      <FooterLinkCards/>
       
     </>
   )

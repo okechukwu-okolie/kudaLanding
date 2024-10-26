@@ -1,10 +1,7 @@
 import styled from 'styled-components'
 import { CiCircleMinus } from "react-icons/ci";
 import { CiCircleCheck } from "react-icons/ci";
-import { GiSuitcase } from "react-icons/gi";
-import { FaPaperPlane } from "react-icons/fa";
-import { GiSwapBag } from "react-icons/gi";
-import More from './Components/More';
+
 
 
 function Table(){
@@ -64,14 +61,7 @@ function Table(){
                 <td><CiCircleMinus />Yes</td>
                 <td><CiCircleCheck />No</td>
             </tr>
-            <MoreFlex>
-            
-            <div>
-                <More icon ={<GiSuitcase />}/>
-                <More icon ={<FaPaperPlane />}/>
-                <More icon = {<GiSwapBag />}/>
-            </div>
-            </MoreFlex>
+             
         </Container>
     )
 }
@@ -144,20 +134,4 @@ const DataHeader = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-`
-const MoreFlex =styled.div`
-   div{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-   }
-h1{
-    font-size: 40px;
-    font-weight: 800;
-    margin: 60px 0;
-    text-align:center;
-    color: #80447F;
-}
-    
 `

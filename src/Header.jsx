@@ -46,6 +46,8 @@ const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
 
     @media (max-width:768px){
         padding: 10px 10px;
