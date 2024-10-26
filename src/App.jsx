@@ -1,5 +1,6 @@
 
 import './App.css'
+import Cards from './Cards'
 import Header from './Header'
 import Hero from './Hero'
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Header/>
       <Hero/>
+      <Cards/>
     </>
   )
 }
