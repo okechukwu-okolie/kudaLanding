@@ -84,7 +84,7 @@ const Card = styled.div`
     }
     p{
         color: grey;
-        font-size: 15px;
+        font-size: 13px;
         font-size: 900;
         margin-bottom: 10px;
     }
@@ -92,4 +92,5 @@ const Card = styled.div`
 const CardContainer =styled.div`
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 `

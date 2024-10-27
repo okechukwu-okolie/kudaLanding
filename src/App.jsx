@@ -9,6 +9,8 @@ import Table from './Table'
 import More from './Components/More'
 import MoneyApp from './MoneyApp'
 import FooterLinkCards from './FooterLinkCards'
+import AddressAndSocials from './AddressAndSocials'
+import FinalFooter from './FinalFooter'
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <More/>
       <MoneyApp/>
       <FooterLinkCards/>
+      <AddressAndSocials/>
+      <FinalFooter/>
       
     </>
   )

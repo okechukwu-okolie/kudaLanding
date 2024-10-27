@@ -22,6 +22,24 @@ function FooterLinkCard(props){
 
 export default FooterLinkCard
 const Container = styled.div`
-    
+    margin-bottom: 40px;
 
+    @media (max-width: 768px) {
+    
+    }
+
+h1{
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 13px;
+    color: #40196D;
+    @media (max-width: 768px) {
+        font-size: 17px;
+}
+}
+p{
+    font-size: 13px;
+    margin-bottom: 13px;
+    color: #40196D;
+}
 `

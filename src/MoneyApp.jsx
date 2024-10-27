@@ -17,7 +17,7 @@ function MoneyApp(){
 
         </Container>
         <hr />
-        
+
         </>
     )
 }
@@ -30,10 +30,28 @@ const Container = styled.div`
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 80px;
     border-radius: 10px;
+
+    @media (max-width:768px){
+        img{
+            width: 100%;
+            margin-top: 60px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 14px;
+        }
+        button{
+           margin-left: 50%;
+        }
+    }
 
 
     h2{

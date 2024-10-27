@@ -6,11 +6,12 @@ function FooterLinkCards(){
 
     return(
         <Container>
+            
+            <FootFlex>
             <div>
                 <img src="/public/kudaLogo.png" alt="" />
                 <span>kuda.</span>
             </div>
-            <FootFlex>
                 <FooterLinkCard  heading='Personal'
                                 text1='Discover Personal'
                                 text2='Transfer & Spend'
@@ -61,28 +62,75 @@ function FooterLinkCards(){
                                                 text7=''
                                                 text8=''/>
             </FootFlex>
+
+            <AppStores>
+                    <Flex1>
+                        <div>
+                            <img src="/public/apple.png" alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                Download on the
+                            </p>
+                            <h3>
+                                App   Store
+                            </h3>
+                        </div>
+                    </Flex1>
+                    <Flex2>
+                    <div>
+                            <img src="/public/playstore.png" alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                GET IT ON
+                            </p>
+                            <h3>
+                                Google Play
+                            </h3>
+                        </div>
+                    </Flex2>
+                    <Flex3>
+                        <div>
+                            <img src="/public/www.png" alt="" />
+                        </div>
+                        <div>
+                            <p>
+                                Sign in to K Kuda
+                            </p>
+                            <h3>
+                                On The Web
+                            </h3>
+                        </div>
+                    </Flex3>
+                </AppStores>
+                <LastNote>
+                    Products may vary by country or market.
+                </LastNote>
         </Container>
     )
 }
 
 export default FooterLinkCards
 const Container = styled.div`
-        
+        width: 80%;
+        margin: auto;
         margin-top: 80px;
-        display: flex;
-        justify-content: space-evenly;
+        
 
         div{
-            
+            /* display: flex; */
         }
         span{
             font-size: 35px;
             font-weight: 900;
-            margin-left: -8px;
-            margin-top: -20px;
+            color:#40196D;
+            /* margin-left: -8px; */
+            /* margin-top: -20px; */
         }
         img{
             width: 45px;
+            margin: -10px;
         }
             
 `
@@ -90,5 +138,149 @@ const Container = styled.div`
 const FootFlex = styled.div`
     display: flex;
     justify-content: space-evenly;
-    flex-basis: 80%;
+    flex-wrap: wrap;
+    
+`
+const AppStores = styled.div`
+    display:flex;
+    justify-content: left;
+    text-align: center;
+    margin-left: 90px;
+
+    @media (max-width:768px){
+        
+        display: block;
+        
+    }
+    
+`
+
+
+const Flex1 = styled.div`
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    @media (max-width:768px){
+        padding: 3px 13px;
+        
+        img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    }
+
+    img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 9px;
+        /* text-align: center; */
+        padding-top: 5px;
+        margin: 0px;
+    }
+    h3{
+        color: white;
+        font-size: 12px;
+        padding: 0px;
+        margin-top: -5px;
+    }
+    
+    
+`
+
+
+const Flex2 = styled.div`
+     display: flex;
+     justify-content: space-between;
+    background-color: black;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    @media (max-width:768px){
+        padding: 3px 13px;
+        
+        img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    }
+
+    img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 9px;
+        /* text-align: center; */
+        padding-top: 5px;
+        
+    }
+    h3{
+        color: white;
+        font-size: 12px;
+        padding: 0px;
+        margin-top: -5px;
+    }
+`
+
+const Flex3 = styled.div`
+     display: flex;
+     justify-content: space-between;
+    background-color: #40196D;
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    @media (max-width:768px){
+        padding: 3px 13px;
+        
+        img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    }
+
+    img{
+        padding-top: 5px;
+        width: 25px;
+        text-align: center;
+    }
+    p{
+        color: white;
+        font-size: 9px;
+        /* text-align: center; */
+        padding-top: 5px;
+        
+    }
+    h3{
+        color: white;
+        font-size: 12px;
+        padding: 0px;
+        margin-top: -5px;
+    }
+`
+const LastNote = styled.div`
+    text-align: center;
+    color: purple;
+    margin: 10px 0px;
+    font-size: 14px;
 `
