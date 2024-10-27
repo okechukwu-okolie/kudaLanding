@@ -1,16 +1,21 @@
 
 import './App.css'
-import Cards from './Cards'
-import TextImageTemplates from './TextImageTemplates'
+// import Cards from './Cards'
+// import TextImageTemplates from './TextImageTemplates'
 import Header from './Header'
-import Hero from './Hero'
-import Testimonials from './Testinonials'
-import Table from './Table'
-import More from './Components/More'
+// import Hero from './Hero'
+// import Testimonials from './Testinonials'
+// import Table from './Table'
+// import More from './Components/More'
 import MoneyApp from './MoneyApp'
 import FooterLinkCards from './FooterLinkCards'
 import AddressAndSocials from './AddressAndSocials'
 import FinalFooter from './FinalFooter'
+import { Route,Routes } from 'react-router-dom'
+import Personal from './pages/Personal'
+import Business from './pages/Business'
+import Company from './pages/Company'
+import Help from './pages/Help'
 
 
 function App() {
@@ -19,12 +24,14 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
-      <Cards/>
-      <TextImageTemplates/>
-      <Testimonials/>
-      <Table/>
-      <More/>
+      <Routes>
+        <Route path='/' element={<Personal/>}/>
+        <Route path='/business' element={<Business/>}/>
+        <Route path='/company' element={<Company/>}/>
+        <Route path='/help' element={<Help/>}/>
+      
+
+      </Routes>
       <MoneyApp/>
       <FooterLinkCards/>
       <AddressAndSocials/>

@@ -70,6 +70,7 @@ const Logo = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 
     img{
         width: 35px;
@@ -87,6 +88,7 @@ const Logo = styled.div`
         color: #40186E;
         font-size: 25px;
         font-weight: 750;
+        cursor: pointer;
 
         @media (max-width:768px){
             font-size: 20px;
@@ -103,6 +105,7 @@ const Navigation = styled.div`
         align-items: center;
         gap: 20px;
         margin-left: 100px;
+        cursor: pointer;
     }
     li {
         margin-right: 20px;
@@ -121,6 +124,7 @@ const ButtonFlag=styled.div`
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    
     @media (max-width:768px){
            margin-left: 95px;
            gap:6px
@@ -133,6 +137,7 @@ const ButtonFlag=styled.div`
         font-size: 13px;
         background-color: transparent;
         font-weight: 700;
+        cursor: pointer;
 
         @media (max-width:768px) {
         display:none;
@@ -146,6 +151,7 @@ const ButtonFlag=styled.div`
         font-weight: 700;
         padding: 9px 20px;
         border-radius: 12px;
+        cursor: pointer;
 
         @media (max-width:768px) {
         display:none;
@@ -159,6 +165,7 @@ const ButtonFlag=styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
     }
     img{
         width: 20px;

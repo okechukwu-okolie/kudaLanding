@@ -68,9 +68,9 @@ function Table(){
 export default Table
 
 const Container = styled.div`
-    display: flexbox;
+    /* display: flexbox; */
     
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     h2{
         font-size: 35px;
@@ -87,24 +87,25 @@ const Container = styled.div`
     margin-bottom: 200px;
 
 table{
-   min-height: 100px;
-    border-collapse: collapse;
+    width: 80%;
 }
 th{
     width: 400px;
+    border: 1px solid grey;
 }
+text-align: left;
 td{
     width:400px;
     min-height: 300px;
-    border-collapse: collapse;
+    border: 1px solid grey;
+    /* border-collapse: collapse; */
+
+    @media (max-width:768px){
+        display: block;
+    }
 }
-    tr,td{
-        border: 1px solid grey;
-        border-collapse: collapse;
-    }
-    th{
-        text-align: left;
-    }
+   
+  
 `
 const Kuda = styled.div`
 margin-top: 20px;
