@@ -39,9 +39,20 @@ margin: auto;
 margin-top: 50px;
 align-content: center;
 
+@media (max-width: 768px){
+    width: 300px;
+    height: 300px;
+}
+
 h1{
     margin-top: -130px;
     font-size: 150px;
+
+    @media (max-width:768px){
+        margin-top: 10px;
+        font-size: 100px;
+    
+    }
 }
 button{
     padding: 10px;
@@ -54,6 +65,13 @@ button{
     transition:background-color,color .5s ease-in;
     margin: 0px 20px 0px 20px;
     margin-top: -30px;
+
+    @media (max-width:768px){
+        
+        font-size: 15px;
+        margin-top: 10px;
+    
+}
 
 }
 button:hover{
