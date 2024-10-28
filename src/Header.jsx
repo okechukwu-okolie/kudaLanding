@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { IoMdArrowDropdown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function Header(){
 
@@ -9,16 +10,16 @@ function Header(){
         <Container>
             <LogoNav>
                 <Logo>
-                    <img src="/public/kudaLogo.png" alt="" />
-                    <h1>kuda.</h1>
+                    <Link to={'/'}><img src="/public/kudaLogo.png" alt="" /></Link>
+                    <Link to={'/'}><h1>kuda.</h1></Link>
                 </Logo>
                 {/* <div> */}
                     <Navigation>
                         <ul>
-                            <li>Personal<IoMdArrowDropdown /></li>
-                            <li>Business<IoMdArrowDropdown /></li>
-                            <li>Company<IoMdArrowDropdown /></li>
-                            <li>Help<IoMdArrowDropdown /></li>
+                            <Link to={'/'}><li>Personal<IoMdArrowDropdown /></li></Link>
+                            <Link to={'/business'}><li>Business<IoMdArrowDropdown /></li></Link>
+                            <Link to={'company'}><li>Company<IoMdArrowDropdown /></li></Link>
+                            <Link to={'help'}><li>Help<IoMdArrowDropdown /></li></Link>
                         </ul>
                     </Navigation>
                 {/* </div> */}
@@ -89,6 +90,7 @@ const Logo = styled.div`
         font-size: 25px;
         font-weight: 750;
         cursor: pointer;
+        text-decoration:none;
 
         @media (max-width:768px){
             font-size: 20px;
