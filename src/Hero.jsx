@@ -19,7 +19,7 @@ function Hero(){
                 <AppStores>
                     <Flex1>
                         <div>
-                            <img src="/public/apple.png" alt="" />
+                            <img src="/apple.png" alt="" />
                         </div>
                         <div>
                             <p>
@@ -32,7 +32,7 @@ function Hero(){
                     </Flex1>
                     <Flex2>
                     <div>
-                            <img src="/public/playstore.png" alt="" />
+                            <img src="/playstore.png" alt="" />
                         </div>
                         <div>
                             <p>

@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 
 function Header(){
 
+   
+        
+    }
 
     return(
         <Container>
@@ -30,7 +33,7 @@ function Header(){
                 <span>
                     <img src="/flag.png" alt="" />
                 </span>
-                <span id="hamburger">
+                <span id="hamburger" onClick={show}>
                     <RxHamburgerMenu />
                 </span>
             </ButtonFlag>
