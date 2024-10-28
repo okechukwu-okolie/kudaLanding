@@ -9,7 +9,7 @@ function FooterLinkCards(){
             
             <FootFlex>
             <div>
-                <img src="/public/kudaLogo.png" alt="" />
+                <img src="/kudaLogo.png" alt="" />
                 <span>kuda.</span>
             </div>
                 <FooterLinkCard  heading='Personal'
@@ -52,7 +52,7 @@ function FooterLinkCards(){
                                                 text7=''
                                                 text8=''/>
 
-                <FooterLinkCard  heading=''
+                {/* <FooterLinkCard  heading=''
                                                 text1=''
                                                 text2=''
                                                 text3=''
@@ -60,13 +60,13 @@ function FooterLinkCards(){
                                                 text5=''
                                                 text6=''
                                                 text7=''
-                                                text8=''/>
+                                                text8=''/> */}
             </FootFlex>
 
             <AppStores>
                     <Flex1>
                         <div>
-                            <img src="/public/apple.png" alt="" />
+                            <img src="/apple.png" alt="" />
                         </div>
                         <div>
                             <p>
@@ -79,7 +79,7 @@ function FooterLinkCards(){
                     </Flex1>
                     <Flex2>
                     <div>
-                            <img src="/public/playstore.png" alt="" />
+                            <img src="/playstore.png" alt="" />
                         </div>
                         <div>
                             <p>
@@ -92,7 +92,7 @@ function FooterLinkCards(){
                     </Flex2>
                     <Flex3>
                         <div>
-                            <img src="/public/www.png" alt="" />
+                            <img src="/www.png" alt="" />
                         </div>
                         <div>
                             <p>

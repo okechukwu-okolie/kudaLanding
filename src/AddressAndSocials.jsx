@@ -6,7 +6,7 @@ function AddressAndSocials(){
 
     return(
         <Container>
-            <img src="/public/socials.png" alt="" />
+            <img src="/socials.png" alt="" />
             <Address location='Lagos'
                     address1='1-11 Commercial Avenue,'
                     address2='Yaba, Lagos,'

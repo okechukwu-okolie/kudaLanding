@@ -17,9 +17,9 @@ function TextImageTemplates(){
                                 added2="can get a debit card to go with it. That's all you need"
                                 added3='to make the right money moves.'
                                 link= 'Open An Account in Minutes' icon ={ <MdKeyboardArrowRight />}
-                                image='/public/womanHoldingPhone.png'/>
+                                image='/womanHoldingPhone.png'/>
 
-            <ImageTextTemplate  image='/public/paymentOptions.png'
+            <ImageTextTemplate  image='/paymentOptions.png'
                                 main1 = 'It’s your money, we just  ' 
                                 main2 ='help you manage it'
                                 main3=''
@@ -40,9 +40,9 @@ function TextImageTemplates(){
                                 added3='time you pay for something. Just set a percentage to'
                                 added4='save and watch your money grow.'
                                 link= 'See all our Savings' icon ={ <MdKeyboardArrowRight />}
-                                image='/public/piggyBank.png'/>
+                                image='/piggyBank.png'/>
 
-            <ImageTextTemplate  image='/public/kudaCard.png'
+            <ImageTextTemplate  image='/kudaCard.png'
                                 main1 = 'Turn off access, turn on ' 
                                 main2 ='safety.'
                                 main3=''
@@ -64,9 +64,9 @@ function TextImageTemplates(){
                                 added3='call. However you choose to reach out, there’ll always'
                                 added4='be a friendly person there to make your life easy.'
                                 link= 'Get Help' icon ={ <MdKeyboardArrowRight />}
-                                image='/public/customerCare.png'/>
+                                image='/customerCare.png'/>
 
-            <ImageTextTemplate  image='/public/coinJar.png'
+            <ImageTextTemplate  image='/coinJar.png'
                                 main1 = 'Fees as clear as glass.' 
                                 main2 =''
                                 main3=''

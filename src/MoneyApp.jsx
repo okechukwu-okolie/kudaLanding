@@ -12,7 +12,7 @@ function MoneyApp(){
                 <button>Join Kuda</button>
             </div>
             <div>
-                <img src="/public/moneyApp.png" alt="" />
+                <img src="/moneyApp.png" alt="" />
             </div>
 
         </Container>

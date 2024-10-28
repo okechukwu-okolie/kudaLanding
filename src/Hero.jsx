@@ -45,11 +45,11 @@ function Hero(){
                     </Flex2>
                 </AppStores>
                     <Cbn>
-                    <img src="/public/cbn.png" alt="" />
+                    <img src="/cbn.png" alt="" />
                     </Cbn>
             </MainHeading>
             <GroupB>
-                <img src="/public/heroPhone.png" alt="" />
+                <img src="/heroPhone.png" alt="" />
             </GroupB>
 
         </Container>

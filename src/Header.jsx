@@ -10,7 +10,7 @@ function Header(){
         <Container>
             <LogoNav>
                 <Logo>
-                    <Link to={'/'}><img src="/public/kudaLogo.png" alt="" /></Link>
+                    <Link to={'/'}><img src="/kudaLogo.png" alt="" /></Link>
                     <Link to={'/'}><h1>kuda.</h1></Link>
                 </Logo>
                 {/* <div> */}
@@ -28,7 +28,7 @@ function Header(){
                 <button id="btn1">Sign in</button>
                 <button id="btn2">Join Kuda</button>
                 <span>
-                    <img src="/public/flag.png" alt="" />
+                    <img src="/flag.png" alt="" />
                 </span>
                 <span id="hamburger">
                     <RxHamburgerMenu />

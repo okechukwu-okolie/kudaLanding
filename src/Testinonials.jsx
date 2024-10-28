@@ -10,15 +10,15 @@ function Testimonials(){
                 <h2>
                     Don’t just take our word for it
                 </h2>
-                <img src="/public/scrollingImage.png" alt="" />
+                <img src="/scrollingImage.png" alt="" />
             </div>
             <Flex>
-                <CompanyLogo logo='/public/TClogo-removebg-preview.png'/>
-                <CompanyLogo logo='/public/econsSummit-removebg-preview.png'/>
-                <CompanyLogo logo='/public/fintech.png'/>
-                <CompanyLogo logo='/public/bbc.png'/>
-                <CompanyLogo logo='/public/cnbc.png'/>
-                <CompanyLogo logo='/public/euroMoney.png'/>
+                <CompanyLogo logo='/TClogo-removebg-preview.png'/>
+                <CompanyLogo logo='/econsSummit-removebg-preview.png'/>
+                <CompanyLogo logo='/fintech.png'/>
+                <CompanyLogo logo='/bbc.png'/>
+                <CompanyLogo logo='/cnbc.png'/>
+                <CompanyLogo logo='/euroMoney.png'/>
             </Flex>
             <Partner/>
 
