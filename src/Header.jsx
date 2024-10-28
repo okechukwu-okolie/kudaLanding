@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header(){
 
-   
-        
-    }
+    
 
     return(
         <Container>
@@ -35,11 +33,12 @@ function Header(){
                 </span>
                 <span id="hamburger" onClick={show}>
                     <RxHamburgerMenu />
+                   
                 </span>
             </ButtonFlag>
         </Container>
     )
-
+}
 
 export default Header
 
