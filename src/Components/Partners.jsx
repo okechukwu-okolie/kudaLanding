@@ -9,11 +9,11 @@ function Partner(){
                 Our Partners
                 </h2>
                 <div>
-                    <img src="/public/valar.png" alt="" />
-                    <img src="/public/entree.png" alt="" />
-                    <img src="/public/sbi.png" alt="" />
-                    <img src="/public/target.png" alt="" />
-                    <img src="/public/visa.png" alt="" />
+                    <img src="/valar.png" alt="" />
+                    <img src="/entree.png" alt="" />
+                    <img src="/sbi.png" alt="" />
+                    <img src="/target.png" alt="" />
+                    <img src="/visa.png" alt="" />
                 </div>
             
 

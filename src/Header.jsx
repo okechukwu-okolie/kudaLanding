@@ -31,7 +31,7 @@ function Header(){
                 <span>
                     <img src="/flag.png" alt="" />
                 </span>
-                <span id="hamburger" onClick={show}>
+                <span id="hamburger" >
                     <RxHamburgerMenu />
                    
                 </span>

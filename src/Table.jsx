@@ -13,7 +13,7 @@ function Table(){
                 <tr>
                     <th></th>
                     <th>Other Banks</th>
-                    <Kuda> <img src="/public/kudaLogo.png" alt="" />Kuda.</Kuda>
+                    <Kuda> <img src="/kudaLogo.png" alt="" />Kuda.</Kuda>
                 </tr>
             </table>
             <tr>
