@@ -1,11 +1,23 @@
 import styled from "styled-components"
 import { IoMdArrowDropdown } from "react-icons/io";
+import { MdArrowRight } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { CiCircleRemove } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import {useState} from 'react'
 
 function Header(){
 
+    const [slide,setSlide]=useState(false);
+    // const [icon,setIcon] = useState(false);
+
+    const hamburger =()=>{
+        setSlide(!slide)
     
+    }
+    // const changeIcon =()=>{
+    //     setIcon(!icon)
+    // }
 
     return(
         <Container>
@@ -31,10 +43,26 @@ function Header(){
                 <span>
                     <img src="/flag.png" alt="" />
                 </span>
-                <span id="hamburger" >
-                    <RxHamburgerMenu />
-                   
+                <span id="hamburger"  >
+                    <RxHamburgerMenu  onClick={hamburger }  />
                 </span>
+                <div  className={slide ? "div" : "div-none"}>
+  
+                    <div className="nav">
+                    <button id="btn4">Join Kuda</button>
+                    <button id="btn3">Sign in</button>
+                
+
+                            <ul>
+                                <Link to={'/'}><li>Personal<MdArrowRight /></li></Link>
+                                <Link to={'/business'}><li>Business<MdArrowRight /></li></Link>
+                                <Link to={'company'}><li>Company<MdArrowRight /></li></Link>
+                                <Link to={'/business'}><li>Developer<MdArrowRight /></li></Link>
+                                <Link to={'/company'}><li>Contact Us<MdArrowRight /></li></Link>
+                                <Link to={'/help'}><li>Help<MdArrowRight /></li></Link>
+                            </ul>
+                        </div>
+                </div>
             </ButtonFlag>
         </Container>
     )
@@ -185,4 +213,77 @@ const ButtonFlag=styled.div`
             
         }
     }
+    .div{
+
+       @media (min-width:768px){
+        display: none;
+       }
+
+        .nav{
+            display: block;
+            width:310px;
+            height: 600px;
+            position:absolute;
+            right: 0px;
+            top: 60px;
+            background-color: #ffffffb7;
+            
+            
+
+            #btn3{
+        border: none;
+        color: #40186E;
+        font-size: 13px;
+        background-color: #d6d5d5;
+        padding: 12px 20px;
+        width:100px;
+        font-weight: 900;
+        border-radius: 12px;
+        cursor: pointer;
+        
+
+        /* @media (max-width:768px) {
+        display:none;
+    } */
+    }
+    #btn4{
+        border: none;
+        background-color: #40186E;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 9px 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+
+        /* @media (max-width:768px) {
+        display:none;
+    } */
+    }
+
+            ul{
+                list-style: none;
+            }
+            li{
+                font-size: 14px;
+                padding-left: 20px;
+                padding-top: 10px;
+                font-weight: 700;
+                border-bottom: 1px solid lightgray;
+                padding-bottom: 5px;
+                padding-top: 30px;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .div-none{
+        display: none;
+    }
 `
+
+
