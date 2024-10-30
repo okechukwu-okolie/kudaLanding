@@ -9,15 +9,13 @@ import {useState} from 'react'
 function Header(){
 
     const [slide,setSlide]=useState(false);
-    // const [icon,setIcon] = useState(false);
+    
 
     const hamburger =()=>{
         setSlide(!slide)
     
     }
-    // const changeIcon =()=>{
-    //     setIcon(!icon)
-    // }
+   
 
     return(
         <Container>
@@ -226,25 +224,23 @@ const ButtonFlag=styled.div`
             position:absolute;
             right: 0px;
             top: 60px;
-            background-color: #ffffffb7;
+            background-color: #ffffffd3;
             
             
 
             #btn3{
-        border: none;
-        color: #40186E;
-        font-size: 13px;
-        background-color: #d6d5d5;
-        padding: 12px 20px;
-        width:100px;
-        font-weight: 900;
-        border-radius: 12px;
-        cursor: pointer;
+                border: none;
+                color: #40186E;
+                font-size: 13px;
+                background-color: #d6d5d5;
+                padding: 12px 20px;
+                width:100px;
+                font-weight: 900;
+                border-radius: 12px;
+                cursor: pointer;
         
 
-        /* @media (max-width:768px) {
-        display:none;
-    } */
+  
     }
     #btn4{
         border: none;
@@ -260,9 +256,7 @@ const ButtonFlag=styled.div`
         margin-bottom: 20px;
         margin-right: 30px;
 
-        /* @media (max-width:768px) {
-        display:none;
-    } */
+    
     }
 
             ul{
