@@ -31,6 +31,7 @@ function Header(){
                             <Link to={'/business'}><li>Business<IoMdArrowDropdown /></li></Link>
                             <Link to={'company'}><li>Company<IoMdArrowDropdown /></li></Link>
                             <Link to={'help'}><li>Help<IoMdArrowDropdown /></li></Link>
+                            <Link to={'getRequest'}><li>GetRequest<IoMdArrowDropdown /></li></Link>
                         </ul>
                     </Navigation>
                 {/* </div> */}
@@ -56,7 +57,7 @@ function Header(){
                                 <Link to={'/business'}><li>Business<MdArrowRight /></li></Link>
                                 <Link to={'company'}><li>Company<MdArrowRight /></li></Link>
                                 <Link to={'/business'}><li>Developer<MdArrowRight /></li></Link>
-                                <Link to={'/company'}><li>Contact Us<MdArrowRight /></li></Link>
+                                <Link to={'getRequest'}><li>GetRequest<IoMdArrowDropdown /></li></Link>
                                 <Link to={'/help'}><li>Help<MdArrowRight /></li></Link>
                             </ul>
                         </div>

@@ -16,6 +16,7 @@ import Personal from './pages/Personal'
 import Business from './pages/Business'
 import Company from './pages/Company'
 import Help from './pages/Help'
+import GetRequest from './pages/GetRequest'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/business' element={<Business/>}/>
         <Route path='/company' element={<Company/>}/>
         <Route path='/help' element={<Help/>}/>
+        <Route path='/getRequest' element={<GetRequest/>}/>
       
 
       </Routes>
